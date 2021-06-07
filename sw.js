@@ -2,13 +2,9 @@ self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('fox-store').then((cache) => cache.addAll([
       'index.html',
-      'fox-icon.png',
+      'ask.png',
       'index.js',
       'style.css',
-      'fox1.jpg',
-      'fox2.jpg',
-      'fox3.jpg',
-      'fox4.jpg',
     ])),
   );
 });
