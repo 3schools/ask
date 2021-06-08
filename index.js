@@ -1,4 +1,4 @@
-const images = ['fox1', 'fox2', 'fox3', 'fox4'];
+const images = ['ask', 'ask', 'ask', 'ask'];
 const imgElem = document.querySelector('img');
 
 function randomValueFromArray(array) {
