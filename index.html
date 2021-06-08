@@ -44,7 +44,7 @@ margin-right:5px;
 padding:0px;
 text-shadow:0px 3px 6px #000 ;
 }
-.ourapp .appbtn{
+.appbtn{
 margin:3px 2px;
 padding:3px 6px;
 background-color:#ff80d5;
@@ -54,7 +54,7 @@ border:1px solid #ffff00;
 border-radius:7px;
 box-shadow:1px 5px 10px #8c8c8c;
 }
-.ourapp .appbtn:hover{
+.appbtn:hover{
 box-shadow:1px 5px 10px #000000 inset;
 }
 .appfooter{
@@ -92,14 +92,15 @@ margin:1px 1px 3px 3px;
       bottom: 0; left: 0;
       width: 100%;
       height: 100%;
+     display:block;
   }
 .btn{
    float:left;
    margin-left:9px;
 }
 </style>
-<div id="appb" class="ourapp appb"><button type="submit" class="btn add-button">Install Our App</button>
-    <button type="submit" class="btn" onclick="document.querySelector('.appb').style.display='none';document.querySelector('#iframe').classList.add('iframe')">Remove</button>
+<div id="appb" class="ourapp appb"><button type="submit" class="btn add-button appbtn">Install Our App</button>
+    <button type="submit" class="btn appbtn" onclick="document.querySelector('.appb').style.display='none';document.querySelector('#iframe').classList.add('iframe')">Remove</button>
  </div>
 <div class="ourapp appbody">
 <h2>1> what is the Full Form of ROM ? </h2><span>13/6/2021</span>
@@ -131,9 +132,9 @@ margin:1px 1px 3px 3px;
 <div class="ourapp appbody">
 <h2>10> what is the Full Form of ROM ? </h2><span>13/6/2021</span>
 </div>
-<iframe id="iframe" src="https://ask.3schools.in"></iframe>
-<div class="ourapp appfooter appb">
+<iframe style="display:none" id="iframe" src="https://ask.3schools.in"></iframe>
+<!--<div class="ourapp appfooter appb">
 <a href="#">ℹ</a><a href="#" >📩</a><a href="#">🏠</a><a href="#" >📗</a><a href="#" >⏰</a>
-</div>
+</div>-->
 </body>
 </html>
