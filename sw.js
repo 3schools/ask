@@ -5,6 +5,10 @@ self.addEventListener('install', (e) => {
       'ask.png',
       'index.js',
       'style.css',
+      'ask1.jpg',
+      'ask2.jpg',
+      'ask3.jpg',
+      'ask4.jpg',
     ])),
   );
 });
