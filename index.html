@@ -19,7 +19,6 @@ margin:0;
 padding:0;
 background-color:#eee;
 }
-#appb .rbtn{margin-left:50px;}
      iframe {
       position: fixed;
       background:transparent;
@@ -29,9 +28,17 @@ background-color:#eee;
       width: 100%;
       height: 100%;
   }
+      
+    .btn{
+
+   float:left;
+}
     </style>
     
 <div id="appb" style="width:400px;"><button class="rbtn" onclick="document.querySelector('#appb').style.display='none'">remove button </button> <button class="add-button">ℹ Install Our App</button> </div>
- <iframe src="https://ask.3schools.in"></iframe>
+ <!--<iframe src="https://ask.3schools.in"></iframe>-->
+    <button type="submit" class="btn" onClick="return false;" >Save</button>
+    <button type="submit" class="btn" onClick="return false;">Publish</button>
+    <button class="btn">Back</button>
    </body>
 </html>
