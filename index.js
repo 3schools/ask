@@ -1,3 +1,16 @@
+const images = ['fox1', 'fox2', 'fox3', 'fox4'];
+const imgElem = document.querySelector('img');
+
+function randomValueFromArray(array) {
+  const randomNo = Math.floor(Math.random() * array.length);
+  return array[randomNo];
+}
+
+setInterval(() => {
+  const randomChoice = randomValueFromArray(images);
+  imgElem.src = `${randomChoice}.jpg`;
+}, 2000);
+
 // Register service worker to control making site work offline
 
 if ('serviceWorker' in navigator) {
@@ -10,7 +23,7 @@ if ('serviceWorker' in navigator) {
 
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
-addBtn.style.display = 'none';
+addBtn.style.display = 'block';
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
