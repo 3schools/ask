@@ -19,7 +19,7 @@ margin:0;
 padding:0;
 background-color:#eee;
 }
-     iframe {
+    .iframe {
       position: fixed;
       background:transparent;
       border:none;
@@ -36,9 +36,9 @@ background-color:#eee;
     </style>
     
 <div id="appb"><button type="submit" class="btn add-button">Install Our App</button>
-    <button type="submit" class="btn" onclick="document.querySelector('#appb').style.display='none'">Remove</button>
+    <button type="submit" class="btn" onclick="document.querySelector('#appb').style.display='none';document.querySelector('#iframe').classList.add('iframe')">Remove</button>
  </div>
-  <iframe src="https://ask.3schools.in"></iframe>
+  <iframe id="iframe" src="https://ask.3schools.in"></iframe>
     
    </body>
 </html>
