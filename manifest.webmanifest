@@ -9,7 +9,7 @@
       "type": "image/png"
     }
   ],
-  "name": "Ask",
-  "short_name": "Ask 3schools",
+  "name": "Ask 3schools",
+  "short_name": "Ask",
   "start_url": "index.html"
 }
