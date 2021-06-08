@@ -42,13 +42,11 @@ box-shadow:1px 5px 10px #000000 inset;
 .appbody{
 margin-top:5px;
 padding:1px 9px;
-display:inline-block;
-background-color:#f2f2f2;
 }
 .appbody>h2{
 font-size:15px;
-display:inline-block;
 color:#1a1aff;
+display:inline-block;
 }
 .appbody>article{
 margin:0px 1px 2px 1px;
@@ -68,6 +66,12 @@ margin:0px 1px 2px 1px;
    margin-left:9px;
 }
 .a{background-color:#ccffeb;}.b{background-color:#ffffcc; }.c{background-color:#ffcce6; }.d{background-color:#ccb3ff; }.e{background-color:#ffffb3; }
+  @media (min-width:900px){
+    .appbody{
+     display:inline-block;
+    }
+    
+  }
 </style>
 <div id="appb" class=" appb"><button type="submit" class="btn add-button appbtn">Install Our App</button>
     <button type="submit" class="btn appbtn" onclick="document.querySelector('.appb').style.display='none';document.querySelector('#iframe').classList.add('iframe')">🏠 Home Page</button>
