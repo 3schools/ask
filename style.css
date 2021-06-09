@@ -28,7 +28,7 @@ border:1px solid #ffff00;
 border-radius:7px;
 box-shadow:1px 5px 10px #8c8c8c;
 }
-.button{max-width:100%;}
+.button{width:45%;}
 .appbtn:hover{
 box-shadow:1px 5px 10px #000000 inset;
 }
