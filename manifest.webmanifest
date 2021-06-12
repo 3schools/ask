@@ -1,5 +1,6 @@
 {
   "background_color": "#99d6ff",
+  "theme_color": "#2c79f5",
   "description": "Ask 3schools is about education, gk, questions and answers",
   "display": "standalone",
   "icons": [
